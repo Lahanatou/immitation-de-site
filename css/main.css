@@ -1,0 +1,730 @@
+@charset "utf-8";
+html {
+  background-color: red;
+}article {
+  background-color: green;
+  width: 600px;
+  height: 300px;
+}
+.main {
+  background-color: green;
+  width: 600px;
+  height: 300px;
+}
+.sub {
+  background-color: yellow;
+  width: 50%;
+  height: 50%;
+}.main {
+  background-color: green;
+  width: 50%;
+  height: 300px;
+}.main {
+  background-color: green;
+  width: 50vw;
+  height: 50vh;
+}.main {
+  background-color: green;
+  font-size: 15px;
+}
+.sub {
+  background-color: yellow;
+  width: 10em;
+}<article class="main">
+DIC Coffeeのコーヒーはルワンダ産のコーヒー豆「DIC Beans」を使用しています。<br>
+直接契約したコーヒー農家から仕入れております。<br>
+バランスの取れた酸味とコクに、フルーティな甘さを感じられる１杯です。ぜひ、こだわりの１杯をお楽しみください。<br>
+</article>.main {
+  background-color: silver;
+  border: solid 1px black;
+  padding: 20px;
+  margin: 30px;
+}article {
+  width: 300px;
+  padding: 20px;
+  background-color: green;
+}
+div {
+  background-color: silver;
+  width: 100%;
+  border: solid 5px white;
+  padding: 20px;
+}article {
+  width: 300px;
+  padding: 20px;
+  background-color: green;
+}
+div {
+  background-color: silver;
+  width: 100%;
+  border: solid 5px white;
+  padding: 20px;
+  /* 追加 */
+  box-sizing: border-box;
+}.section_inner {
+  padding: 50px 10% 30px;
+}article {
+  padding: 20px;
+  background-image: url("sample_key.jpg") ;
+}article {
+  padding: 20px;
+  background-image: url("sample_key.jpg") ;
+  /* 追加 */
+  background-size: contain;
+}article {
+  padding: 20px;
+  background-image: url("sample_key.jpg") ;
+  background-size: contain;
+  /* 追加 */
+  background-repeat: no-repeat;
+}article {
+  background: green;
+}<header>
+<a href="index.html"><img src="images/sample_logo_k.png"></a>
+images=sample_cafe1.jpg
+<nav>
+
+  <!-- 省略 -->
+</nav>
+<!-- divでまとめる -->
+<div>
+  <h1>DIC Coffee</h1>
+  <p>natural organic cafe</p>
+</div>
+</header><header>
+<a href="index.html"><img src="images/sample_logo_k.png"></a>
+<nav>
+  <!-- 省略 -->
+</nav>
+<!-- divでまとめる -->
+<div>
+  <h1>DIC Coffee</h1>
+  <p>natural organic cafe</p>
+</div>
+</header>.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+}h1 {
+  color: red;
+}<div>
+<h1>タイトル</h1>
+<p>このセクションの内容です</p>
+</div>div {
+  background-color: green;
+}
+rticle {
+  padding: 20px;
+  background-image: url("sample_key.jpg") ;
+}
+article {
+  padding: 20px;
+  background-image: url("sample_key.jpg") ;
+  /* 追加 */
+  background-size: contain;
+}.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+}h1 {
+  font-weight: bold;
+}
+h1 {
+  text-decoration: underline;
+}.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+h1 {
+  width:200px;
+  background: green;
+}.center {
+  text-align: center;
+}
+h1 {
+  width:200px;
+  background: green;
+  /* 追加 */
+  display: inline-block;
+}.sans-serif {
+  font-family: sans-serif;
+}
+.serif {
+  font-family: serif;.key {
+    height: 500px;
+    background: center / cover no-repeat url("../images/sample_key.jpg");
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+  }
+  .key h1{
+    font-size: 2.5rem;
+  }
+  .section_title {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .menu_title {
+    display: inline-block;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 1.5rem;
+    color: #42210b;
+    border-bottom: solid #42210b 1px;
+    margin-bottom: 20px;
+  }
+  .center {
+    text-align: center;
+  }
+  <head>.key h1{
+    font-size: 2.5rem;
+  }section_title {
+    font-family: 'Noto Serif JP', serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;.menu_title {
+      display: inline-block;
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.5rem;
+      color: #42210b;
+      border-bottom: solid #42210b 1px;
+      margin-bottom: 20px;
+    }img {
+      width: 500px;
+      height: 250px;
+      background: pink;
+      /* 以下を変更 */
+      object-fit: cover;
+    }p {
+      width: 300px;
+      height: 300px;
+      background: pink;
+      border-radius: 50px;
+    }p {
+      width: 300px;
+      height: 300px;
+      background: pink;
+      border-radius: 50px 50% 50px 50%;
+    }.coffee_menu_image {
+      width: 20%;
+      border-radius: 50%;
+    }.click:hover {
+      background: red;
+      color: white;
+    }li:first-child {
+      color: red;
+    }
+    li:nth-of-type(2n) {
+      color: blue;
+    }ul::before {
+      content: "売り切れ";
+    }.header_nav {
+      background:  rgba(0,0,0,.6);
+    }.header_nav {
+      background:  rgba(0,0,0,.6);
+    }
+    .global_nav_item {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+    }
+    .global_nav_item:hover {
+      background: #fff;
+      color: #42210b;
+    }.header_nav {
+      background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+    }.flex_box {
+      display: flex;
+    }
+    .red {
+      background: red;
+    }
+    .orange {
+      background: orange;
+    }
+    .green {
+      background: green;
+    }.flex_box {
+      display: flex;
+      /* 以下を追加 */
+      flex-direction: row-reverse;
+    }
+    /* 色指定CSS省略 */.flex_box {
+  display: flex;
+  /* 以下を追加 */
+  justify-content: center;
+}
+/* 色指定CSS省略 */.flex_box {
+  display: flex;
+  /* 以下を追加 */
+  justify-content: center;
+}
+/* 色指定CSS省略 */
+.flex_box {
+  display: flex;
+  /* 以下を追加 */
+  flex-wrap: wrap;
+}
+.flex_box_item {
+  width: 300px;
+}
+/* 色指定CSS省略 */.flex_box {
+  display: flex;
+  /* 以下を変更 */
+  flex-wrap: nowrap;
+}
+.flex_box_item {
+  width: 300px;
+}
+/* 色指定CSS省略 */.flex_box {
+  display: flex;
+  /* 以下を変更 */
+  flex-flow: row-reverse nowrap;
+}
+.flex_box_item {
+  width: 300px;
+}
+/* 色指定CSS省略 */.flex_box {
+  display: flex;
+  /* 以下を追加 */
+  height: 100px;
+  background: rgba(0,0,0,.2);
+  align-items: center;
+}
+.flex_box_item {
+  width: 300px;
+}
+/* 色指定CSS省略 */.flex_box {
+  display: flex;
+  height: 100px;
+  background: rgba(0,0,0,.2);
+  /* 以下を変更 */
+  align-items: stretch;
+}
+.flex_box_item {
+  width: 300px;
+}
+/* 色指定CSS省略 */@charset "utf-8";
+
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+
+.header_nav {
+  background:  rgba(0,0,0,.6);
+}
+.global_nav_item {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}.global_nav {
+  display: flex;
+}.header_nav {
+  background:  rgba(0,0,0,.6);
+  /* 以下を追加 */
+  display: flex;
+}
+img {
+  width: 80px;
+  float: left;
+}.float_item {
+  float: left
+}
+.red {
+  background: red;
+}
+.orange {
+  background: orange;
+}
+.green {
+  background: green;
+}.float {
+  background: rgba(0,0,0,.2)
+}
+.float_item {
+  float: left;
+  /* 幅と高さを追加 */
+  width: 100px;
+  height: 100px;
+}
+.red {
+  background: red;
+}
+.orange {
+  background: orange;
+}
+.green {
+  background: green;
+}/* 省略 */
+.blue {
+  background: blue;
+  width: 200px;
+  height: 200px;
+}/* 省略 */
+.blue {
+  background: blue;
+  width: 200px;
+  height: 200px;
+  /* 以下を追加 */
+  clear: left;
+}/* 省略 */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+img {
+  width: 200px;
+  position: fixed;
+}
+p {
+  height: 1000px;
+  background: rgba(0,0,0,.2)
+}
+div {
+  width: 500px;
+  position: relative;
+  background: pink;
+}
+img {
+  width: 200px;
+  position: absolute;
+  right: 20px;
+}
+/* pタグへCSS削除 */<section class="section_inner">
+  <div class="section_title">
+  <h1>CONTACT</h1>
+  <p>お問い合わせ</p>
+</div>
+<form action="#" method="POST">
+  <table border=1>
+    <tr>
+      <td>お名前</td>
+      <td>空欄</td>
+    </tr>
+    <tr>
+      <td>ご連絡先</td>
+      <td>空欄</td>
+    </tr>
+    <tr>
+      <td>お住いの地域</td>
+      <td>空欄</td>
+    </tr>
+    <tr>
+      <td>内容</td>
+      <td>空欄</td>
+    </tr>
+  </table>
+  <button type="reset">リセット</button>
+  <button type="submit">送信する</button>
+</form>
+</section><tr>
+<td><label>お名前</label></td>
+<td><input type="" ></td>
+</tr><form action="#" method="POST">
+<table>
+  <tr>
+    <td><label for="name">お名前</label></td>
+    <td ><input type="text" name="name" id="name"></td>
+  </tr>
+  <tr>
+    <td><label for="phonenumber">ご連絡先</label></td>
+    <td><input type="tel" name="phonenumber" id="phonenumber"></td>
+  </tr>
+  <tr>
+    <td><label for="region">お住いの地域</label></td>
+    <td>
+      <select id="region">
+        <option value="0">選択してください</option>
+        <option value="1">北海道</option>
+        <option value="2">東北</option>
+        <option value="3">関東</option>
+        <option value="4">中部</option>
+        <option value="5">近畿</option>
+        <option value="6">中国・四国</option>
+        <option value="7">九州</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td><label for="content">内容</label></td>
+    <td><textarea name="content" id="content"></textarea></td>
+  </tr>
+</table>
+  <button type="reset">リセット</button>
+  <button type="submit">送信する</button>
+</form>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DIC cafe</title>
+    <link href="css/nomalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+  </head>
+  <body>
+    <header class="sub_header">
+      <nav class="header_nav">
+        <a href="index.html"><img src="images/sample_logo_k.png" class="logo"></a>
+        <ul class="global_nav">
+          <a href="index.html" class="global_nav_item">
+            <li>Home</li>
+          </a>
+          <a href="blueberry_pancakes.html" class="global_nav_item">
+            <li>Menu</li>
+          </a>
+          <a href="contact.html" class="global_nav_item">
+            <li>Contact</li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+    <section class="section_inner">
+      <div class="section_title">
+        <h1>CONTACT</h1>
+        <p>お問い合わせ</p>
+      </div>
+      <form action="#" method="POST">
+        <table class="contact">
+          <tr class="contact_line">
+            <td class="contact_sign"><label for="name">お名前</label></td>
+            <td class="contact_input"><input type="text" name="name" id="name"></td>
+          </tr>
+          <tr class="contact_line">
+            <td class="contact_sign"><label for="phonenumber">ご連絡先</label></td>
+            <td class="contact_input"><input type="tel" name="phonenumber" id="phonenumber"></td>
+          </tr>
+          <tr class="contact_line">
+            <td class="contact_sign"><label for="region">お住いの地域</label></td>
+            <td>
+              <select id="region">
+                <option value="0">選択してください</option>
+                <option value="1">北海道</option>
+                <option value="2">東北</option>
+                <option value="3">関東</option>
+                <option value="4">中部</option>
+                <option value="5">近畿</option>
+                <option value="6">中国・四国</option>
+                <option value="7">九州</option>
+              </select>
+            </td>
+          </tr>
+          <tr class="contact_content">
+            <td class="contact_sign"><label for="content">内容</label></td>
+            <td class="contact_input"><textarea name="content" id="content"></textarea></td>
+          </tr>
+        </table>
+        <div class="contact_btn_area">
+          <button type="reset" class="contact_btn reset_btn">リセット</button>
+          <button type="submit" class="contact_btn submit_btn">送信する</button>
+        </div>
+      </form>
+    </section>
+    <footer class="footer">
+      <nav>
+        <ul class="footer_nav">
+          <a href="index.html" class="footer_nav_item">
+            <li>Home</li>
+          </a>
+          <a href="blueberry_pancakes.html" class="footer_nav_item">
+            <li>Menu</li>
+          </a>
+          <a href="contact.html" class="footer_nav_item">
+            <li>Contact</li>
+          </a>
+          <a href="index.html" class="footer_nav_item">
+            <li>
+              <img src="images/sample_logo_w.png" class="footer_logo">
+            </li>
+          </a>
+        </ul>
+      </nav>
+      <p class="footer_right">© DIVE INTO CODE Corp. All RIGHTS RESERVED.</p>
+    </footer>
+  </body>
+</html>@charset "utf-8";
+
+.sub_header {
+  padding-bottom: 100px;
+}
+
+.contact {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.contact_line {
+  height: 50px;
+  line-height: 50px;
+}
+.contact_sign {
+  width: 25%;
+  background: #beb9b7;
+  border: solid 1px #beb9b7;
+  text-align: left;
+  padding: 0 20px;
+}
+.contact_input {
+  width: 75%;
+  border: solid 1px #beb9b7;
+}
+.contact_content {
+  height: 100px;
+}
+
+.contact_input input, select, textarea {
+  border: none;
+  width: 99%;
+}
+.contact_input input, select {
+  height: 50px;
+}
+.contact_input textarea {
+  height: 100px;
+}
+.contact_btn_area {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.contact_btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.contact_btn + .contact_btn{
+  margin-left: 10px;
+}
+.submit_btn {
+  background: #9852a5;
+  color: #fff;
+}
+.reset_btn {
+  background: #e6e6e6;
+}@charset "utf-8";
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.key {
+  height: 500px;
+  background: center / cover no-repeat url("../images/sample_key.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
