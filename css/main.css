@@ -6,10 +6,11 @@ body {
   position: relative;
   padding-bottom: 75px;
   min-height: 100%;
+  margin: 0px;
 }
-.hey{
+/*.hey{
 
-}
+}*/
 that {
   list-style: none;
 }
@@ -62,9 +63,9 @@ div , li {
   line-height: normal;
 }
 
-.section_inner .section_title {
+/*.section_inner .section_title {
   
-}
+}*/
 
 .section_title {
   font-family: 'Noto Serif JP', serif;
@@ -96,18 +97,42 @@ div , li {
 
 .menu_true {
   display: flex;
-  padding: 10px;
+  /*padding: 10px;*/
+  justify-content: space-between;
 }
 .menu_item {
   display: flex;
   /*justify-content: center;
   padding: 30px 30px 30px 20px;*/
-  flex-direction: column;
-  
+  flex-direction: row-reverse;
+  background: #fff;
+  height: 300px;
+  width: 49%;
 }
 
+.menu_item_image {
+  height: 300px;
+  width: 55%;
+  object-fit: cover;
+}
 
+.menu_item_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  width: 45%;
+}
 
+.menu_item_price {
+  text-align: right;
+  color: #42210b;
+  font-size: 18px;
+}
+
+.menu_item_tittle {
+  font-size: 18px;
+}
 
 
 .cafe_menu_image {
@@ -195,10 +220,10 @@ div , li {
   font-family: 'Noto Serif JP', serif;
 }
 
-.menu_item_image {
+/*.menu_item_image {
   float: none;
   padding: 30px 30px 30px 20px;
-}
+}*/
 
 
 
@@ -229,14 +254,24 @@ div , li {
   flex-direction: row-reverse;
   align-items: center;
   padding: 20px;
+  object-fit: cover
+  
 }
 .caffee_menu_image {
   width: 20%;
   border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  border-style: none;
 }
 .caffee_menu_content {
   width: 80%;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .info {
@@ -260,12 +295,17 @@ div , li {
 }
 
 .footer_nav_item{
-  margin:0 5 0 5px;
-  display:inline-block;
+  margin: 0px;
+  display: inline-block;
   color: #fff;
-  align-items: stretch;
+  /*align-items: stretch;*/
   }
-
+.footer_nav {
+  height: 40px;
+  justify-content: space-between;
+  position: center;
+  width: 100%;
+}
 
   .footer{
   background-color:#251e19;
@@ -275,10 +315,12 @@ div , li {
   color:white;
   position: absolute;
   text-align: center;
-  text-decoration: none;
+  /*bottom: -75px;*/
   }
 
   .footer_logo{
     width: 60px;
-    display:inline-block
+    display:inline-block;
   }
+
+  

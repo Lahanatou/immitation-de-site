@@ -9,22 +9,22 @@
 */
 
 html {
-    hauteur de ligne :  1.15 ; /* 1 */
-    -webkit-text-size-adjust :  100 % ; /* 2 */
+    line-height:  1.15 ; /* 1 */
+    -webkit-text-size-adjust :  100% ; /* 2 */
   }
   /* Sections
      ================================================= ======================== */
   /**
   * Supprimer la marge dans tous les navigateurs.
   */
-  corps {
-    marge :  0 ;
+  body {
+    margin: 0 ;
   }
   /**
   * Rendez l'élément `main` de manière cohérente dans IE.
   */
   principal {
-    affichage : bloc ;
+    display : bloc ;
   }
   /**
   * Corrigez la taille de la police et la marge des éléments `h1` dans `section` et
